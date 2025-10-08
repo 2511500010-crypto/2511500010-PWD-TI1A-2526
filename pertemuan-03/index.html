@@ -37,7 +37,19 @@
 
         <section id="contact">
             <h2>kontak saya ini</h2>
-            <p>Instagram : M.Miftah_x1</p>
+            <form action="" method="get">
+                <label for="txtNama">Nama:</label>
+                <input type="text" id="txtNama" name="txtNama" placeholder="masukkan nama" required autocomplete="name">
+
+                <label for="txtEmail">Email</label>
+                <input type="text" id="txtEmail" placeholder="masukkan email" required autocomplete="email">
+
+                <label for="txtPesan">Pesan</label>
+                <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="tulis pesan anda..." required></textarea>
+
+                <button type="submit">Kirim</button>
+                <button type="reset">Batal</button>
+            </form>
         </section>
     </main>
     <footer>

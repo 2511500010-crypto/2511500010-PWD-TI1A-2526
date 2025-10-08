@@ -7,4 +7,5 @@ Hari ini, Rabu 08 oktober 2025(SESUIAKAN HARI DAN TANGGAL KALIAN KULIAH) SAYA BE
 
 <ol>
     <li>menggunakan file emmet.html pertemuan-02 untuk file index.html pertemuan-03<li>
+    <li>Membuat struktur form untuk section contact<li>
 <ol>
