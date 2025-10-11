@@ -12,4 +12,5 @@ Hari ini, Rabu 08 oktober 2025(SESUIAKAN HARI DAN TANGGAL KALIAN KULIAH) SAYA BE
     <li>Membuat styling untuk selector ID #about elemen h2 </li>
     <li>Membuat styling untuk selector ID #about elemen p </li>
     <li>Membuat styling untuk selector ID #about elemen strong </li>
+    <li>Membuat styling untuk selector ID #about mode responsif (mobile) </li>
 </ol>
