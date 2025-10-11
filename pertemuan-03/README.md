@@ -9,5 +9,6 @@ Hari ini, Rabu 08 oktober 2025(SESUIAKAN HARI DAN TANGGAL KALIAN KULIAH) SAYA BE
     <li>menggunakan file emmet.html pertemuan-02 untuk file index.html pertemuan-03</li>
     <li>Membuat struktur form untuk section contact</li>
     <li>Membuat styling untuk selector ID #about </li>
-   <li>Membuat styling untuk selector ID #about elemen </li>
+    <li>Membuat styling untuk selector ID #about elemen </li>
+    <li>Membuat styling untuk selector ID #about elemen strong </li>
 </ol>
