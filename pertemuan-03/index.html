@@ -75,31 +75,30 @@
         }
 
         #contact form {
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-columns:  180px 1fr;
+            gap: 10px;
         }
 
-        #contact p {
-            display: flex;
-            justify-content: flex-start;
-            align-items: baseline;
-            margin: 0;
-            padding: 6px 0;
-            border-bottom: 1px solid #003366;
-        }
-
-        #contact strong {
-
+        #contact label {
+            text-align: right;
+            padding-right: 16px;
+            color: #003366;
+            font-weight: 600;
+            align-self: start;
+            padding-top: 10px;
         }
 
         #contact input,
         #contact textarea {
-            margin-bottom: 15px;
+            margin-bottom: 0;
             padding: 10px;
             border: none;
             border-radius: 5px;
             background: rgba(255, 255, 255, 0.9);
             color: #333;
+            width: 100%;
+            box-sizing: content-box;
         }
 
         #contact input [type="color"] {
