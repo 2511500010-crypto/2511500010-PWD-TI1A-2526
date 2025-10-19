@@ -23,5 +23,6 @@ Hari ini, Rabu 08 oktober 2025(SESUIAKAN HARI DAN TANGGAL KALIAN KULIAH) SAYA BE
     <li>Membuat styling untuk selector ID #contact button : hover </li>
     <li>Membuat styling untuk selector ID #contact button[type="reset]</li>
     <li>Membuat styling untuk selector ID #contact button[type="reset]:hover </li>
-    <li> memperbaiki styling untuk selector ID #contact</li>
+    <li>Memperbaiki styling untuk selector ID #contact</li>
+    <li>Memperbaiki styling untuk selector ID #contact h2</li>
 </ol>
