@@ -27,4 +27,5 @@ Hari ini, Rabu 08 oktober 2025(SESUIAKAN HARI DAN TANGGAL KALIAN KULIAH) SAYA BE
     <li>Memperbaiki styling untuk selector ID #contact h2</li>
     <li>Memperbaiki styling untuk selector ID #contact label </li>
     <li>Memperbaiki styling untuk selector ID #contact button</li>
+    <li>Membuat styling untuk selector ID #contact @media </li>
 </ol>
