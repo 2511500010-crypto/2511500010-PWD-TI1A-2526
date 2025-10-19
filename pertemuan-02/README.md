@@ -7,5 +7,5 @@ Hari ini,rabu 1.oktober.2025 saya mempelajari:
 <ol> 
     <li> git add,git commit,git push origin main</li>
     <li>Broser akan melengkapi elemen atau tag yang hilang </li>
-    <li>
+    <li> merevisi pada bagian html entity</li>
 </ol>
