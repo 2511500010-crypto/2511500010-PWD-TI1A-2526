@@ -98,7 +98,7 @@
             background: rgba(255, 255, 255, 0.9);
             color: #333;
             width: 100%;
-            box-sizing: content-box;
+            box-sizing: border-box;
         }
 
         #contact input [type="color"] {
@@ -117,6 +117,8 @@
             cursor: pointer;
             margin-right: 10px;
             transition: background 0.3s;
+            grid-column: 2;
+            display: inline-block;
         }
 
         #contact button:hover {
