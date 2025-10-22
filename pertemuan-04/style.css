@@ -108,7 +108,7 @@ header li a:active {
     display: block;
     padding: 12px 14px;
     border: 1px solid rgba(255, 255, 255, 0.35);
-    background: rgba(255, 255, 255, 0.08);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     backdrop-filter: saturate(120%);
   }
 }
