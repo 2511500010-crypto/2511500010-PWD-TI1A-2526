@@ -10,4 +10,5 @@ Hari ini, Rabu 15 oktober 2025, Saya mempelajari :
     <li> Menganti internal css ke eksternal css</li>
     <li> Styling Header </li>
     <li> Styling section # HOME </li>
+    <li> Styling footer </li>
 </ol>
