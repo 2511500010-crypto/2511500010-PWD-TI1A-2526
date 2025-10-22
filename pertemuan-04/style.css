@@ -65,7 +65,7 @@ footer {
 }
 
 header li a:hover {
-  background-color: #85020d;
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 6px;
   transition: background-color 0.3s ease;
 }
@@ -74,11 +74,11 @@ header li a:focus {
   outline: 2px solid #fff;
   outline-offset: 2px;
   border-radius: 6px;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 header li a:active {
-  background-color: #cc04a1;
+  background-color: rgba(255, 255, 255, 0.2);
   transform: translate(1px);
 }
 

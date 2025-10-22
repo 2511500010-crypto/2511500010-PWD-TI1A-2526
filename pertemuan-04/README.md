@@ -16,4 +16,5 @@ Hari ini, Rabu 15 oktober 2025, Saya mempelajari :
     <li> styling navigasi mode mobile </li>
     <li> Merubah warna pada Styling Header </li>
     <li> Perbaikan Merubah warna pada Styling Header </li>
+    <li> Perbaikan Merubah warna pada Styling Header li </li>
 </ol>
