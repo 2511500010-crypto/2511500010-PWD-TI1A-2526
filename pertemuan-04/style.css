@@ -11,10 +11,11 @@ body {
 }
 
 header {
-  background: #003366;
+  background: linear-gradient(135 deg, #667eea 0%, #764ba2 100%);
   color: #fff;
   padding: 20px;
   text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 header ul {
