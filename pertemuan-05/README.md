@@ -12,4 +12,5 @@ Hari ini, Rabu 22 oktober 2025 SAYA BELAJAR :
     <li> Class Menu-toggle mobile </li>
     <li> Styling Nav Mobile </li>
     <li> Styling Navi menu Mobile </li>
+    <li> membuat script.js</li>
 </ol>

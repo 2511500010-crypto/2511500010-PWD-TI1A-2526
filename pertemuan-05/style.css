@@ -278,7 +278,7 @@ header li a:active {
   nav {
     display: none;
     flex-direction: column;
-    background: #003366;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     width: 100%;
     padding: 5px 0;
   }
