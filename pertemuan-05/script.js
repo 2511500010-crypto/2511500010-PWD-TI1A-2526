@@ -7,7 +7,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
   const email = document.getElementById("txtEmail");
   const pesan = document.getElementById("txtPesan");
 
-  document.querySelectorAll(".error-msg").forEach((el) => el.remove());
+    document.querySelectorAll(".error-msg").forEach((el) => el.remove());
   [nama, email, pesan].forEach((el) => (el.style.border = ""));
 
   let isValid = true;
@@ -51,7 +51,11 @@ function showError(inputElement, message) {
   small.style.marginTop = "4px";
   small.dataset.forId = inputElement.id;
 
-  inputElement.parentNode.insertBefore(small, inputElement.nextSibling);
+if (inputElement.nextSibling) {
+label.insertBefore(small, inputElement.nextSibling);
+} else {
+label.appendChild(small);
+}
 
   inputElement.style.border = "1px solid red";
 
