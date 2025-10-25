@@ -15,4 +15,5 @@ Hari ini, Rabu 22 oktober 2025 SAYA BELAJAR :
     <li> membuat script.js</li>
     <li> Latihan Validasi untuk form submission </li>
     <li> Latihan Ganti Teks Tombol Saat Menu Aktif</li>
+    <li>Latihan Ucapan Otomatis Saat Halaman Dimuat</li>
 </ol>
