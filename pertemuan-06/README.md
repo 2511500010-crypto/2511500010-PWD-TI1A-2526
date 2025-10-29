@@ -6,4 +6,5 @@ NAMA : MUHAMMAD MIFTAH ALQOIS <BR><BR>
 Hari ini, Rabu 22 oktober 2025 SAYA BELAJAR :
 <ol>
     <li> hello.php </li>
+    <li> index.php </li>
 </ol>
