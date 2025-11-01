@@ -38,27 +38,36 @@
                 $nim = 2511500010;
                 $NIM = 2511500020;
                 $Nim = "";
-                $nama = "Muhammad Miftah Alqois";
+                $nama = "Muhammad Miftah Alqois &#128526";
                 $Nama = "Miftah Alqois";
-                $tanggal = "23 MEI 2007"
-                $TANGGAL = "24 MEI 2007"
-                
+                $lahir = "SUNGAILIAT";
+                $LAHIR = "JEPANG";
+                $tanggal = "23 MEI 2007";
+                $TANGGAL = "24 MEI 2007";
+                $hobi = "coding,bermain game,bermain musik &#127926,memancing";
+                $HOBI = "TIDAK ADA";
+                $pasangan = "Berpacaran dengan CILLA";
+                $PASANGAN = "TIDAK ADA";
+                $pekerjaan = "Mahasiswa ISB Atma Luhur Pangkalpinang &copy; 2025";
+                $PEKERJAAN = "KONTEN KREATOR";
+                $Namaort = "Bapak Eddy Sastra dan Ibu Henny Afrida";
+                $nmaort = "bapak orang dan ibu orang";
+                $namakk = "-";
+                $namaKK = "KAKAK ORANG";
+                $namadk = "-";
+                $namAdk = "ADEK ORANG";
             ?>
             <h2>Tentang saya</h2>
-            <p><strong>NIM</strong> 
-                <?php
-                echo $nim;
-                ?>
-        </p>
-            <p><strong>Nama Lengkap</strong> Muhammad MIftah Alqois &#128526</p>
-            <p><strong>Tempat lahir</strong> Sungailiat</p>
-            <p><strong>tanggal lahir</strong> 23 MEI 2007</p>
-            <p><strong>hobi</strong> coding,bermain game,bermain musik &#127926,memancing</p>
-            <p><strong>pasangan</strong> Pacar : Cilla</p>
-            <p><strong>pekerjaan</strong> Mahasiswa ISB Atma Luhur Pangkalpinang &copy; 2025</p>
-            <p><strong>Nama Orang tua</strong> Bapak Eddy Sastra dan Ibu Henny Afrida</p>
-            <p><strong>Nama Kakak</strong> Tidak ada</p>
-            <p><strong>Nama adek</strong> Tidak Ada</p>
+            <p><strong>NIM</strong> <?php echo $nim; ?></p>
+            <p><strong>Nama Lengkap</strong> <?php echo $nama; ?></p>
+            <p><strong>Tempat lahir</strong> <?php echo $lahir; ?></p>
+            <p><strong>tanggal lahir</strong> <?php echo $tanggal; ?></p>
+            <p><strong>hobi</strong> <?php echo $hobi; ?></p>
+            <p><strong>pasangan</strong> <?php echo $pasangan; ?></p>
+            <p><strong>pekerjaan</strong> <?php echo $pekerjaan; ?></p>
+            <p><strong>Nama Orang tua</strong> <?php echo $Namaort; ?></p>
+            <p><strong>Nama Kakak</strong> <?php echo $namakk; ?></p>
+            <p><strong>Nama adek</strong> <?php echo $namadk; ?></p>
         </section>
 
         <section id="contact">
