@@ -11,4 +11,5 @@ Hari ini, Rabu 22 oktober 2025 SAYA BELAJAR :
     <li> latihan variabel dan tipe data </li>
     <li> tipe data </li>
     <li> latihan konstanta </li>
+    <li> latihan operator pembanding dan struktur pencabangan </li>
 </ol>
