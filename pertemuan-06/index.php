@@ -40,6 +40,9 @@
                 $Nim = "";
                 $nama = "Muhammad Miftah Alqois";
                 $Nama = "Miftah Alqois";
+                $tanggal = "23 MEI 2007"
+                $TANGGAL = "24 MEI 2007"
+                
             ?>
             <h2>Tentang saya</h2>
             <p><strong>NIM</strong> 
@@ -82,7 +85,7 @@
             </form>
         </section>
 
-        
+
     </main>
 
     <footer>

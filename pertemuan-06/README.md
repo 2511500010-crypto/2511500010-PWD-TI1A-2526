@@ -9,4 +9,6 @@ Hari ini, Rabu 22 oktober 2025 SAYA BELAJAR :
     <li> index.php </li>
     <li> latihan 1 </li>
     <li> latihan variabel dan tipe data </li>
+    <li> tipe data </li>
+    <li> latihan konstanta </li>
 </ol>
