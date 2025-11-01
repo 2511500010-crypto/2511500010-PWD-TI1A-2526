@@ -26,12 +26,27 @@
     <main>
         <section id="home">
             <h2>Selamat Datang</h2>
+            <?php 
+                echo "halo dunia!<br>";
+                echo "perkenalkan nama saya Muhammad Miftah Alqois"
+            ?>
             <p>Ini contoh paragraf HTML</p>
         </section>
 
         <section id="about">
+            <?php
+                $nim = 2511500010;
+                $NIM = 2511500020;
+                $Nim = "";
+                $nama = "Muhammad Miftah Alqois";
+                $Nama = "Miftah Alqois";
+            ?>
             <h2>Tentang saya</h2>
-            <p><strong>NIM</strong> 251150010</p>
+            <p><strong>NIM</strong> 
+                <?php
+                echo $nim;
+                ?>
+        </p>
             <p><strong>Nama Lengkap</strong> Muhammad MIftah Alqois &#128526</p>
             <p><strong>Tempat lahir</strong> Sungailiat</p>
             <p><strong>tanggal lahir</strong> 23 MEI 2007</p>
