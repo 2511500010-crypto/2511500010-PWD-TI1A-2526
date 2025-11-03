@@ -14,4 +14,5 @@ Hari ini, Rabu 22 oktober 2025 SAYA BELAJAR :
     <li> latihan operator pembanding dan struktur pencabangan </li>
     <li> latihan array </li>
     <li> tugas 5 - vaariabel php ke section #about </li>
+    <li> Perbaikan </li>
 </ol>

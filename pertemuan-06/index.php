@@ -58,16 +58,56 @@
                 $namAdk = "ADEK ORANG";
             ?>
             <h2>Tentang saya</h2>
-            <p><strong>NIM</strong> <?php echo $nim; ?></p>
-            <p><strong>Nama Lengkap</strong> <?php echo $nama; ?></p>
-            <p><strong>Tempat lahir</strong> <?php echo $lahir; ?></p>
-            <p><strong>tanggal lahir</strong> <?php echo $tanggal; ?></p>
-            <p><strong>hobi</strong> <?php echo $hobi; ?></p>
-            <p><strong>pasangan</strong> <?php echo $pasangan; ?></p>
-            <p><strong>pekerjaan</strong> <?php echo $pekerjaan; ?></p>
-            <p><strong>Nama Orang tua</strong> <?php echo $Namaort; ?></p>
-            <p><strong>Nama Kakak</strong> <?php echo $namakk; ?></p>
-            <p><strong>Nama adek</strong> <?php echo $namadk; ?></p>
+            <p><strong>NIM</strong> 
+                <?php 
+                echo $nim; 
+                ?>
+            </p>
+            <p><strong>Nama Lengkap</strong> 
+                <?php 
+                echo $nama;
+                ?>
+            </p>
+            <p><strong>Tempat lahir</strong> 
+                <?php 
+                echo $lahir; 
+                ?>
+            </p>
+            <p><strong>tanggal lahir</strong>
+                <?php 
+                echo $tanggal; 
+                ?>
+            </p>
+            <p><strong>hobi</strong> 
+                <?php 
+                echo $hobi; 
+                ?>
+            </p>
+            <p><strong>pasangan</strong> 
+                <?php 
+                echo $pasangan; 
+                ?>
+            </p>
+            <p><strong>pekerjaan</strong> 
+                <?php 
+                echo $pekerjaan; 
+                ?>
+            </p>
+            <p><strong>Nama Orang tua</strong> 
+                <?php 
+                echo $Namaort; 
+                ?>
+            </p>
+            <p><strong>Nama Kakak</strong>
+                <?php 
+                echo $namakk; 
+                ?>
+            </p>
+            <p><strong>Nama adek</strong>
+                <?php 
+                echo $namadk; 
+                ?>
+            </p>
         </section>
 
         <section id="contact">
