@@ -16,4 +16,5 @@ Hari ini, Rabu 22 oktober 2025 SAYA BELAJAR :
     <li> tugas 5 - vaariabel php ke section #about </li>
     <li> Perbaikan </li>
     <li> Menambahkan section baru yaitu ipk </li>
+    <li> menambahkan deklarasi ,function ,if ,else di dalam section id="ipk" </li>
 </ol>
