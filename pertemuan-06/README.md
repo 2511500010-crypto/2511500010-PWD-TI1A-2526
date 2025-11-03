@@ -15,4 +15,5 @@ Hari ini, Rabu 22 oktober 2025 SAYA BELAJAR :
     <li> latihan array </li>
     <li> tugas 5 - vaariabel php ke section #about </li>
     <li> Perbaikan </li>
+    <li> Menambahkan section baru yaitu ipk </li>
 </ol>

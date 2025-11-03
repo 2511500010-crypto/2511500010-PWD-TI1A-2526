@@ -33,6 +33,11 @@
             <p>Ini contoh paragraf HTML</p>
         </section>
 
+        <section id="ipk">
+            <h2>Nilai Saya</h2>
+            
+        </section>
+
         <section id="about">
             <?php
                 $nim = 2511500010;
