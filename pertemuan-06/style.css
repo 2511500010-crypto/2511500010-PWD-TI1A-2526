@@ -52,8 +52,8 @@ header li a:active {
 
 #home,
 #about,
-#ipk,
-#contact {
+#contact,
+#ipk {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 30px;
   padding: 30px;
@@ -64,7 +64,8 @@ header li a:active {
 
 #home h2,
 #about h2,
-#contact h2 {
+#contact h2 
+#ipk h2 {
   color: #fff;
   border-bottom: 5px solid #000000;
   padding-bottom: 6px;

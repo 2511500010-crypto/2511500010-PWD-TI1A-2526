@@ -17,4 +17,5 @@ Hari ini, Rabu 22 oktober 2025 SAYA BELAJAR :
     <li> Perbaikan </li>
     <li> Menambahkan section baru yaitu ipk </li>
     <li> menambahkan deklarasi ,function ,if ,else di dalam section id="ipk" </li>
+    <li> menambahkan css pada section ipk </li>
 </ol>
