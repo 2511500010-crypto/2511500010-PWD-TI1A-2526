@@ -9,4 +9,5 @@ Hari ini,rabu 6 November 2025 saya mempelajari:
     <li> mengcopy seluruh file dari elearning punya dosen saya untuk latihan pertemuan-07 </li>
     <li> copy dan rename index.php menjadi get.php,kemudian membuat file baru yaitu get_proses.php </li>
     <li> isi get_proses.php </li>
+    <li> mengisi session-start di dalam get_proses.php </li>
 </ol>
