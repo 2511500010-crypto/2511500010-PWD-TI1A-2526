@@ -16,4 +16,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>styling css bagian section="pendaftaran" hanya bagian destop</li>
   <li>styling css bagian section="pendaftaran" sekarang bagian mobile </li>
   <li> Menambahkan session di proses.php </li>
+  <li> memambahkan session di index.html </li>
+  
 </ol>

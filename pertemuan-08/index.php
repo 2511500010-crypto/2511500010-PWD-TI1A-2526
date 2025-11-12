@@ -16,9 +16,54 @@ if (isset($_SESSION["sespesan"])):
   $sespesan = $_SESSION["sespesan"];
 endif;
 
-$sespesan = "";
-if (isset($_SESSION["sespesan"])):
-  $sespesan = $_SESSION["sespesan"];
+$sesNim = "";
+if (isset($_SESSION["sesNim"])):
+  $sesNim = $_SESSION["sesNim"];
+endif;
+
+$sesNamaL = "";
+if (isset($_SESSION["sesNamaL"])):
+  $sesNamaL = $_SESSION["sesNamaL"];
+endif;
+
+$sesTempat = "";
+if (isset($_SESSION["sesTempat"])):
+  $sesTempat = $_SESSION["sesTempat"];
+endif;
+
+$sesTanggal = "";
+if (isset($_SESSION["sesTanggal"])):
+  $sesTanggal = $_SESSION["sesTanggal"];
+endif;
+
+$sesHobi = "";
+if (isset($_SESSION["sesHobi"])):
+  $sesHobi = $_SESSION["sesHobi"];
+endif;
+
+$sesPasangan = "";
+if (isset($_SESSION["sesPasangan"])):
+  $sesPasangan = $_SESSION["sesPasangan"];
+endif;
+
+$sesPekerjaan = "";
+if (isset($_SESSION["sesPekerjaan"])):
+  $sesPekerjaan = $_SESSION["sespekerjaan"];
+endif;
+
+$sesOrtu = "";
+if (isset($_SESSION["sesOrtu"])):
+  $sesOrtu = $_SESSION["sesOrtu"];
+endif;
+
+$sesKakak = "";
+if (isset($_SESSION["sesKakak"])):
+  $sesKakak = $_SESSION["sesKakak"];
+endif;
+
+$sesAdik = "";
+if (isset($_SESSION["sesAdik"])):
+  $sesAdik = $_SESSION["sesAdik"];
 endif;
 ?>
 
@@ -109,7 +154,7 @@ endif;
 
     <section id="about">
       <?php
-      $nim = 2511500010;
+      $nim =  "";
       $NIM = '0344300002';
       $nama = "Say'yid Abdullah";
       $Nama = 'Al\'kautar Benyamin';
