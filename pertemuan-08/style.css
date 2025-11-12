@@ -49,21 +49,11 @@ header li a:active {
   transform: translateY(1px);
 }
 
-#home:target~header nav a[href="#home"],
-#about:target~header nav a[href="#about"],
-#contact:target~header nav a[href="#contact"], 
-#pendaftaran:target~header nav a[href="#pendaftaran"]{
-  background: #fff;
-  color: #003366;
-  font-weight: bold;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-}
-
 #home,
 #about,
-#contact, 
-#pendaftaran {
+#pendaftaran,
+#contact,
+#form {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
@@ -72,10 +62,12 @@ header li a:active {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+
 #home h2,
 #about h2,
-#contact h2, 
-#pendaftaran h2 {
+#pendaftaran h2,
+#contact h2,
+#form h2 {
   color: #003366;
   border-bottom: 2px solid #003366;
   padding-bottom: 6px;
@@ -83,13 +75,11 @@ header li a:active {
   margin-bottom: 16px;
 }
 
-#home p {
-  text-align: justify;
-}
-
 #about p,
-#contact label, 
-#pendaftaran label {
+#pendaftaran p, 
+#pendaftaran label,
+#contact label,
+#form label {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
@@ -99,8 +89,9 @@ header li a:active {
 }
 
 #about strong,
-#contact label>span, 
-#pendaftaran label>span {
+#pendaftaran label > span,
+#contact label > span,
+#form label > span {
   min-width: 180px;
   color: #003366;
   font-weight: 600;
@@ -109,9 +100,13 @@ header li a:active {
   flex-shrink: 0;
 }
 
+
 #contact input,
-#contact textarea, 
-#pendaftaran input {
+#pendaftaran input,
+#pendaftaran textarea,
+#contact textarea,
+#form input,
+#form textarea {
   flex: 1;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -122,8 +117,10 @@ header li a:active {
   box-sizing: border-box;
 }
 
-#contact button, 
-#pendaftaran button {
+
+#pendaftaran button,
+#contact button,
+#form button {
   margin-top: 10px;
   display: inline-block;
   padding: 10px 24px;
@@ -135,29 +132,35 @@ header li a:active {
   margin-right: 8px;
 }
 
-#contact button[type="submit"], 
-#pendaftaran button[type="submit"]{
+#pendaftaran button[type="submit"],
+#contact button[type="submit"],
+#form button[type="submit"] {
   background-color: #003366;
   color: #fff;
   font-weight: 600;
 }
 
+
+#pendaftaran button[type="reset"],
 #contact button[type="reset"],
-#pendaftaran button[type="reset"]{
+#form button[type="reset"] {
   background-color: #b4b4b4;
   color: #272727;
   font-weight: 500;
 }
 
+#pendaftaran button[type="submit"]:hover,
 #contact button[type="submit"]:hover,
-#pendaftaran button[type="submit"]:hover{
+#form button[type="submit"]:hover {
   background-color: #0379ee;
   transform: translateY(-1px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
+
+#pendaftaran button[type="reset"]:hover,
 #contact button[type="reset"]:hover,
-#pwndaftaran button[type="reset"]:hover{
+#form button[type="reset"]:hover {
   background-color: #cccccc;
   transform: translateY(-1px);
 }
@@ -178,12 +181,18 @@ footer {
   cursor: pointer;
 }
 
+
 @media (max-width: 600px) {
   .menu-toggle {
     display: block;
     position: absolute;
     left: 16px;
     top: 8px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
   }
 
   nav {
@@ -226,16 +235,20 @@ footer {
     backdrop-filter: saturate(120%);
   }
 
+  
   #about p,
+  #pendaftaran p,
+  #pendaftaran label,
   #contact label,
-  #pendaftaran label{
+  #form label {
     flex-direction: column;
     align-items: flex-start;
   }
 
   #about strong,
-  #contact label>span, 
-  #pendaftaran label>span{
+  #pendaftaran label > span,
+  #contact label > span,
+  #form label > span {
     text-align: left;
     padding-right: 0;
     margin-bottom: 2px;
@@ -245,7 +258,11 @@ footer {
   #contact textarea,
   #contact button,
   #pendaftaran input,
-  #pendaftaran button{
+  #pendaftaran textarea,
+  #pendaftaran button,
+  #form input,
+  #form textarea,
+  #form button {
     width: 100%;
   }
 }
