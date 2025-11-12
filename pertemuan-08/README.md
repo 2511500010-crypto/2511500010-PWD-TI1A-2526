@@ -11,4 +11,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
   <li> mendowload zip bahan uts </li>
   <li> membuat section id baru #pendaftaran profil pengunjung </li>
+  <li> Membuat form untuk pendaftaran profil pengunjung yang di dalamnya berisi nim,nama,tempat lahir,tanggal lahir,hobi,pasangan,pekerjaan,namaortu,nama kakak,nama adik </li>
 </ol>

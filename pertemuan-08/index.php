@@ -54,6 +54,51 @@ endif;
 
     <section id="Pendaftaran Profil Pengunjung"> 
       <h2> Silahkan tulis form di baawah ini</h2>
+      <form action="proses.php" method="POST">
+              <label for="txtNim"><span>NIM:</span>
+          <input type="text" id="txtNim" name="txtNim" placeholder="Masukkan nim" required autocomplete="Nim">
+        </label>
+
+        <label for="txtNamaL"><span>NAMA LENGKAP:</span>
+          <input type="text" id="txtNamaL" name="txtNamaL" placeholder="Masukkan Nama Lengkap" required autocomplete="NamaL">
+        </label>
+
+        <label for="txtTempat"><span>TEMPAT LAHIR:</span>
+          <input type="text" id="txtTempat" name="txtTempat" placeholder="Masukkan Tempat Lahir" required autocomplete="Tempat">
+        </label>
+
+        <label for="txtTanggal"><span>TANGGAL LAHIR:</span>
+          <input type="text" id="txtTanggal" name="txtTanggal" placeholder="Masukkan Tanggal Lahir" required autocomplete="Tanggal">
+        </label>
+
+        <label for="txtHobi"><span>HOBI:</span>
+          <input type="text" id="txtHobi" name="txtHobi" placeholder="Masukkan Hobi Anda" required autocomplete="Hobi">
+        </label>
+
+        <label for="txtPasangan"><span>PASANGAN:</span>
+          <input type="text" id="txtPasangan" name="txtPasangan" placeholder="Masukkan Pasangan" required autocomplete="Pasangan">
+        </label>
+
+        <label for="txtPekerjaan"><span>PEKERJAAN:</span>
+          <input type="text" id="txtPekerjaan" name="txtPekerjaan" placeholder="Masukkan Pekerjaan" required autocomplete="Pekerjaan">
+        </label>
+
+                <label for="txtOrtu"><span>NAMA ORANG TUA:</span>
+          <input type="text" id="txtOrtu" name="txtOrtu" placeholder="Masukkan Nama Orangtua" required autocomplete="Ortu">
+        </label>
+
+        <label for="txtKakak"><span>NAMA KAKAK:</span>
+          <input type="text" id="txtKakak" name="txtKakak" placeholder="Masukkan Nama Kakak" required autocomplete="Kakak">
+        </label>
+
+                <label for="txtAdik"><span>Nama ADIK:</span>
+          <input type="text" id="txtAdik" name="txtAdik" placeholder="Masukkan Nama Adik" required autocomplete="Adik">
+        </label>
+
+          <small id="charCount">0/200 karakter</small>
+
+      </form>
+        </label>
     </section>
 
     <section id="about">
