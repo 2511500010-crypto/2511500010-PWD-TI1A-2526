@@ -1,71 +1,22 @@
 <?php
 session_start();
 
-$sesnama = "";
-if (isset($_SESSION["sesnama"])):
-  $sesnama = $_SESSION["sesnama"];
-endif;
+$nim        = $_SESSION["nim"]        ?? "";
+$nama       = $_SESSION["nama"]       ?? "";
+$tempat     = $_SESSION["tempat"]     ?? "";
+$tgl_lahir  = $_SESSION["tgl_lahir"]  ?? "";
+$hobi       = $_SESSION["hobi"]       ?? "";
+$pasangan   = $_SESSION["pasangan"]   ?? "";
+$pekerjaan  = $_SESSION["pekerjaan"]  ?? "";
+$ortu       = $_SESSION["ortu"]       ?? "";
+$kakak      = $_SESSION["kakak"]      ?? "";
+$adik       = $_SESSION["adik"]       ?? "";
 
-$sesemail = "";
-if (isset($_SESSION["sesemail"])):
-  $sesemail = $_SESSION["sesemail"];
-endif;
-
-$sespesan = "";
-if (isset($_SESSION["sespesan"])):
-  $sespesan = $_SESSION["sespesan"];
-endif;
-
-$sesNim = "";
-if (isset($_SESSION["sesNim"])):
-  $sesNim = $_SESSION["sesNim"];
-endif;
-
-$sesNamaL = "";
-if (isset($_SESSION["sesNamaL"])):
-  $sesNamaL = $_SESSION["sesNamaL"];
-endif;
-
-$sesTempat = "";
-if (isset($_SESSION["sesTempat"])):
-  $sesTempat = $_SESSION["sesTempat"];
-endif;
-
-$sesTanggal = "";
-if (isset($_SESSION["sesTanggal"])):
-  $sesTanggal = $_SESSION["sesTanggal"];
-endif;
-
-$sesHobi = "";
-if (isset($_SESSION["sesHobi"])):
-  $sesHobi = $_SESSION["sesHobi"];
-endif;
-
-$sesPasangan = "";
-if (isset($_SESSION["sesPasangan"])):
-  $sesPasangan = $_SESSION["sesPasangan"];
-endif;
-
-$sesPekerjaan = "";
-if (isset($_SESSION["sesPekerjaan"])):
-  $sesPekerjaan = $_SESSION["sespekerjaan"];
-endif;
-
-$sesOrtu = "";
-if (isset($_SESSION["sesOrtu"])):
-  $sesOrtu = $_SESSION["sesOrtu"];
-endif;
-
-$sesKakak = "";
-if (isset($_SESSION["sesKakak"])):
-  $sesKakak = $_SESSION["sesKakak"];
-endif;
-
-$sesAdik = "";
-if (isset($_SESSION["sesAdik"])):
-  $sesAdik = $_SESSION["sesAdik"];
-endif;
+$sesnama  = $_SESSION["sesnama"]  ?? "";
+$sesemail = $_SESSION["sesemail"] ?? "";
+$sespesan = $_SESSION["sespesan"] ?? "";
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -106,48 +57,52 @@ endif;
     <section id="pendaftaran"> 
       <h2> Silahkan tulis form di bawah ini</h2>
       <form action="proses.php" method="POST">
-              <label for="txtNim"><span>NIM:</span>
-          <input type="text" id="txtNim" name="txtNim" placeholder="Masukkan nim" required autocomplete="Nim">
+<label><span>NIM:</span>
+          <input type="text" name="nim" placeholder="Masukkan NIM" value="<?= $nim ?>" required>
         </label>
 
-        <label for="txtNamaL"><span>NAMA LENGKAP:</span>
-          <input type="text" id="txtNamaL" name="txtNamaL" placeholder="Masukkan Nama Lengkap" required autocomplete="NamaL">
+        <label><span>Nama Lengkap:</span>
+          <input type="text" name="nama" placeholder="Masukkan nama lengkap" value="<?= $nama ?>" required>
         </label>
 
-        <label for="txtTempat"><span>TEMPAT LAHIR:</span>
-          <input type="text" id="txtTempat" name="txtTempat" placeholder="Masukkan Tempat Lahir" required autocomplete="Tempat">
+        <label><span>Tempat Lahir:</span>
+          <input type="text" name="tempat" placeholder="Masukkan tempat lahir" value="<?= $tempat ?>" required>
         </label>
 
-        <label for="txtTanggal"><span>TANGGAL LAHIR:</span>
-          <input type="text" id="txtTanggal" name="txtTanggal" placeholder="Masukkan Tanggal Lahir" required autocomplete="Tanggal">
+<label><span>Tanggal Lahir:</span>
+          <input type="text" name="tgl_lahir" placeholder="Masukkan tanggal lahir" value="<?= $tgl_lahir ?>" required>
         </label>
 
-        <label for="txtHobi"><span>HOBI:</span>
-          <input type="text" id="txtHobi" name="txtHobi" placeholder="Masukkan Hobi Anda" required autocomplete="Hobi">
+        <label><span>Hobi:</span>
+          <input type="text" name="hobi" placeholder="Masukkan hobi" value="<?= $hobi ?>">
         </label>
 
-        <label for="txtPasangan"><span>PASANGAN:</span>
-          <input type="text" id="txtPasangan" name="txtPasangan" placeholder="Masukkan Pasangan" required autocomplete="Pasangan">
+        <label><span>Pasangan:</span>
+          <input type="text" name="pasangan" placeholder="Masukkan nama pasangan" value="<?= $pasangan ?>">
         </label>
 
-        <label for="txtPekerjaan"><span>PEKERJAAN:</span>
-          <input type="text" id="txtPekerjaan" name="txtPekerjaan" placeholder="Masukkan Pekerjaan" required autocomplete="Pekerjaan">
+
+        <label><span>Pekerjaan:</span>
+          <input type="text" name="pekerjaan" placeholder="Masukkan pekerjaan" value="<?= $pekerjaan ?>">
         </label>
 
-                <label for="txtOrtu"><span>NAMA ORANG TUA:</span>
-          <input type="text" id="txtOrtu" name="txtOrtu" placeholder="Masukkan Nama Orangtua" required autocomplete="Ortu">
+        <label><span>Nama Orang Tua:</span>
+          <input type="text" name="ortu" placeholder="Masukkan nama orang tua" value="<?= $ortu ?>">
         </label>
 
-        <label for="txtKakak"><span>NAMA KAKAK:</span>
-          <input type="text" id="txtKakak" name="txtKakak" placeholder="Masukkan Nama Kakak" required autocomplete="Kakak">
+        <label><span>Nama Kakak:</span>
+          <input type="text" name="kakak" placeholder="Masukkan nama kakak" value="<?= $kakak ?>">
         </label>
 
-                <label for="txtAdik"><span>Nama ADIK:</span>
-          <input type="text" id="txtAdik" name="txtAdik" placeholder="Masukkan Nama Adik" required autocomplete="Adik">
-        </label>
+        <label><span>Nama Adik:</span>
+          <input type="text" name="adik" placeholder="Masukkan nama adik" value="<?= $adik ?>">
 
-        <button type="submit">Kirim</button>
-        <button type="reset">Batal</button>
+
+        <div class="button-container">
+          <button type="submit">Kirim</button>
+          <button type="reset">Batal</button>
+        </div>
+
       </form>
         </label>
     </section>

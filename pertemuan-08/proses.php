@@ -1,30 +1,53 @@
 <?php
 session_start();
-$sesnama = $_POST["txtNama"];
-$sesemail = $_POST["txtEmail"];
-$sespesan = $_POST["txtPesan"];
-$sesNim = $_POST["txtNim"];
-$sesNamaL = $_POST["txtNamaL"];
-$sesTempat = $_POST["txtTempat"];
-$sesTanggal = $_POST["txtTanggal"];
-$sesHobi = $_POST["txtHobi"];
-$sesPasangan = $_POST["txtPasangan"];
-$sesPekerjaan = $_POST["txtPekerjaan"];
-$sesOrtu = $_POST["txtOrtu"];
-$sesKakak = $_POST["txtKakak"];
-$sesAdik = $_POST["txtAdik"];
-$_SESSION["sesnama"] = $sesnama;
-$_SESSION["sesemail"] = $sesemail;
-$_SESSION["sespesan"] = $sespesan;
-$_SESSION["sesNim"] = $sesNim;
-$_SESSION["sesNamaL"] = $sesNamaL;
-$_SESSION["sesTempat"] = $sesTempat;
-$_SESSION["sesTanggal"] = $sesTanggal;
-$_SESSION["sesHobi"] = $sesHobi;
-$_SESSION["sesPasangan"] = $sesPasangan;
-$_SESSION["sesPekerjaan"] = $sesPekerjaan;
-$_SESSION["sesortu"] = $sesOrtu;
-$_SESSION["sesKakak"] = $sesKakak;
-$_SESSION["sesAdik"] = $sesAdik;
-header("location: index.php");
+
+if (isset($_POST["nim"])) {
+  $_SESSION["nim"]        = $_POST["nim"];
+  $_SESSION["nama"]       = $_POST["nama"];
+  $_SESSION["tempat"]     = $_POST["tempat"];
+  $_SESSION["tgl_lahir"]  = $_POST["tgl_lahir"];
+  $_SESSION["hobi"]       = $_POST["hobi"];
+  $_SESSION["pasangan"]   = $_POST["pasangan"];
+  $_SESSION["pekerjaan"]  = $_POST["pekerjaan"];
+  $_SESSION["ortu"]       = $_POST["ortu"];
+  $_SESSION["kakak"]      = $_POST["kakak"];
+  $_SESSION["adik"]       = $_POST["adik"];
+}
+
+
+if (isset($_POST["txtNama"])) {
+  $_SESSION["sesnama"]  = $_POST["txtNama"];
+  $_SESSION["sesemail"] = $_POST["txtEmail"];
+  $_SESSION["sespesan"] = $_POST["txtPesan"];
+}
+
+
+header("Location: index.php");
+exit;
+?><?php
+session_start();
+
+if (isset($_POST["nim"])) {
+  $_SESSION["nim"]        = $_POST["nim"];
+  $_SESSION["nama"]       = $_POST["nama"];
+  $_SESSION["tempat"]     = $_POST["tempat"];
+  $_SESSION["tgl_lahir"]  = $_POST["tgl_lahir"];
+  $_SESSION["hobi"]       = $_POST["hobi"];
+  $_SESSION["pasangan"]   = $_POST["pasangan"];
+  $_SESSION["pekerjaan"]  = $_POST["pekerjaan"];
+  $_SESSION["ortu"]       = $_POST["ortu"];
+  $_SESSION["kakak"]      = $_POST["kakak"];
+  $_SESSION["adik"]       = $_POST["adik"];
+}
+
+
+if (isset($_POST["txtNama"])) {
+  $_SESSION["sesnama"]  = $_POST["txtNama"];
+  $_SESSION["sesemail"] = $_POST["txtEmail"];
+  $_SESSION["sespesan"] = $_POST["txtPesan"];
+}
+
+
+header("Location: index.php");
+exit;
 ?>
