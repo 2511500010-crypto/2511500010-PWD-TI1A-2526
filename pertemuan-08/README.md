@@ -13,4 +13,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li> membuat section id baru #pendaftaran profil pengunjung </li>
   <li> Membuat form untuk pendaftaran profil pengunjung yang di dalamnya berisi nim,nama,tempat lahir,tanggal lahir,hobi,pasangan,pekerjaan,namaortu,nama kakak,nama adik </li>
   <li> membuata button kirim dan batal untuk section #pendaftaran profil pengunjung </li>
+  <li>styling css bagian section="pendaftaran" hanya bagian destop</li>
 </ol>

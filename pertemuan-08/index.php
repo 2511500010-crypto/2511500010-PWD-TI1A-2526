@@ -38,6 +38,7 @@ endif;
         <li><a href="#home">Beranda</a></li>
         <li><a href="#about">Tentang</a></li>
         <li><a href="#contact">Kontak</a></li>
+        <li><a href="#pendaftaran">Pendaftaran profil Pengunjung</a></li>
       </ul>
     </nav>
   </header>
@@ -52,8 +53,8 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
 
-    <section id="Pendaftaran Profil Pengunjung"> 
-      <h2> Silahkan tulis form di baawah ini</h2>
+    <section id="pendaftaran"> 
+      <h2> Silahkan tulis form di bawah ini</h2>
       <form action="proses.php" method="POST">
               <label for="txtNim"><span>NIM:</span>
           <input type="text" id="txtNim" name="txtNim" placeholder="Masukkan nim" required autocomplete="Nim">
@@ -94,8 +95,6 @@ endif;
                 <label for="txtAdik"><span>Nama ADIK:</span>
           <input type="text" id="txtAdik" name="txtAdik" placeholder="Masukkan Nama Adik" required autocomplete="Adik">
         </label>
-
-          <small id="charCount">0/200 karakter</small>
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
