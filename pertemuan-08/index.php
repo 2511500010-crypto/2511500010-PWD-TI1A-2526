@@ -161,24 +161,21 @@ endif;
       $tempat = "Jebus";
       ?>
       <h2>Tentang Saya</h2>
-      <p><strong>NIM:</strong>
-        <?php
-        echo $NIM;
-        ?>
-      </p>
-      <p><strong>Nama Lengkap:</strong>
-        <?php
-        echo $Nama;
-        ?> &#128526;
-      </p>
-      <p><strong>Tempat Lahir:</strong> <?php echo $tempat; ?></p>
-      <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
-      <p><strong>Hobi:</strong> Memasak, coding, dan bermain musik &#127926;</p>
-      <p><strong>Pasangan:</strong> Belum ada &hearts;</p>
-      <p><strong>Pekerjaan:</strong> Dosen di ISB Atma Luhur &copy; 2025</p>
-      <p><strong>Nama Orang Tua:</strong> Bapak Setiawan dan Ibu Maria</p>
-      <p><strong>Nama Kakak:</strong> Antonius Setiawan</p>
-      <p><strong>Nama Adik:</strong> <?php echo $sespesan ?></p>
+      <?php if (!empty($nim)): ?>
+        <p><strong>NIM:</strong> <?php echo $sesNim ?></p>
+        <p><strong>Nama Lengkap:</strong> <?= $Nama ?> 😎</p>
+        <p><strong>Tempat Lahir:</strong> <?= $Tempat ?></p>
+        <p><strong>Tanggal Lahir:</strong> <?= $Tanggal ?></p>
+        <p><strong>Hobi:</strong> <?= $Hobi ?></p>
+        <p><strong>Pasangan:</strong> <?= $Pasangan ?></p>
+        <p><strong>Pekerjaan:</strong> <?= $Pekerjaan ?></p>
+        <p><strong>Nama Orang Tua:</strong> <?= $Ortu ?></p>
+        <p><strong>Nama Kakak:</strong> <?= $Kakak ?></p>
+        <p><strong>Nama Adik:</strong> <?= $Adik ?></p>
+      <?php else: ?>
+        <p>Belum ada data pengunjung. Silakan isi form di atas 👆</p>
+      <?php endif; ?>
+
     </section>
 
     <section id="contact">
