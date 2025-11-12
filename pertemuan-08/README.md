@@ -19,5 +19,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li> memambahkan session di index.php </li>
   <li> saat menambahkan dari pendaftaran muncul di section about </li>
   <li>perbaikan </li>
+  <li>perbaikan </li>
 
 </ol>
