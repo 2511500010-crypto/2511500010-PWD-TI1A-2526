@@ -15,4 +15,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li> membuata button kirim dan batal untuk section #pendaftaran profil pengunjung </li>
   <li>styling css bagian section="pendaftaran" hanya bagian destop</li>
   <li>styling css bagian section="pendaftaran" sekarang bagian mobile </li>
+  <li> Menambahkan session di proses.php </li>
 </ol>

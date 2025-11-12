@@ -15,6 +15,11 @@ $sespesan = "";
 if (isset($_SESSION["sespesan"])):
   $sespesan = $_SESSION["sespesan"];
 endif;
+
+$sespesan = "";
+if (isset($_SESSION["sespesan"])):
+  $sespesan = $_SESSION["sespesan"];
+endif;
 ?>
 
 <!DOCTYPE html>
