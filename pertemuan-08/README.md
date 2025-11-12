@@ -10,4 +10,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
   <li> mendowload zip bahan uts </li>
+  <li> membuat section id baru #pendaftaran profil pengunjung </li>
 </ol>
