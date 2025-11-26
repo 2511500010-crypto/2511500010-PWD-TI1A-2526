@@ -19,4 +19,6 @@ foreach</li>
 
 <li> Menambahkan File baru yang bernama fungsi.php </li>
 <li> Menambahkan isi pada Fungsi.php </li>
+<li> Tambahkan lagi kode pada fungsi.php untuk menghasilkan tanggal dalam format 2 digit tanggal, 3 digit nama bulan,
+dan 4 digit tahun. </li>
 </ol>
