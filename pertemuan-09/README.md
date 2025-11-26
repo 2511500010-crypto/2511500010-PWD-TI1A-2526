@@ -24,4 +24,6 @@ dan 4 digit tahun. </li>
 <li>Tambahkan lagi kode pada fungsi.php untuk merender hasil atau output biodata. </li>
 <li>Buka file index.php di folder pertemuan-09, hapus kode di section about lalu memodifikasinya lebih simple </li>
 <li> Menambahkan kode require_once __DIR__ . '/fungsi.php'; di index.php pertemuan-09 </li>
+
+<li>Membuat Arraycontact di proses.php </li>
 </ol>
