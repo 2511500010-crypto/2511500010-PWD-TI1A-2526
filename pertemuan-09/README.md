@@ -16,5 +16,7 @@
   <li>menambahkan biodata dan fieldconfig di index.php </li>
   <li> Tambahkan baris kode baru setelah baris <h2>Tentang Saya</h2> untuk menampilkan array menggunakan looping 
 foreach</li>
+
 <li> Menambahkan File baru yang bernama fungsi.php </li>
+<li> Menambahkan isi pada Fungsi.php </li>
 </ol>
