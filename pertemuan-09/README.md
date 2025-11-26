@@ -14,4 +14,6 @@
 
   <li>memodifikasi di proses.php lebih tepatnya menjadi bentuk array associative </li>
   <li>menambahkan biodata dan fieldconfig di index.php </li>
+  <li> Tambahkan baris kode baru setelah baris <h2>Tentang Saya</h2> untuk menampilkan array menggunakan looping 
+foreach</li>
 </ol>
