@@ -16,4 +16,5 @@ SAYA MEMPELAJARI :
     <li> Saya mempelajari mengisi kode baru di database di bagian tabel_tamu bekerja secara otomatis </li>
     <li> mengcopy read.php dan merubah copyan nya menjadi read_inc.php </li>
     <li> mengisi kode baru pada read_inc.php </li>
+    <li> memodifikasi kode di index.php pertemuan ke-10 </li>
 </ol>
