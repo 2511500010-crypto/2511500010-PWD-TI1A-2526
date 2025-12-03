@@ -12,4 +12,5 @@ SAYA MEMPELAJARI :
     <li> Mendownload phpmyadmin dan membuat database yang bernama db_pwd2025. </li>
     <li>Membuat TABLE tbl_tamu DI PHPMYADMIN </li>
     <li> Membuat file baru yang bernama read.php </li>
+    <li> Mengisi kode pada file read.php </li>
 </ol>
