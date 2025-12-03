@@ -8,4 +8,5 @@ SAYA MEMPELAJARI :
 
 <ol> 
     <li> mendownload zip pertemuan ke 10 </li>
+    <li> membuat file baru yang bernama Koneksi.php dan mengisi kode di dalam nya </li>
 </ol>
