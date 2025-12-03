@@ -1,1 +1,11 @@
 # pertemuan-10
+silahkan sesuaikan dengan milik kalian masing-masing:<br><br>
+Hari ini, Rabu 3.Des.2025, saya:<br>
+NIM: 2511500010<br>
+Nama: MUHAMMAD MIFTAH ALQOIS<br>
+Kelompok: TI1A<br>
+SAYA MEMPELAJARI :
+
+<ol> 
+    <li> mendownload zip pertemuan ke 10 </li>
+</ol>
