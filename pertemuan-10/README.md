@@ -18,4 +18,5 @@ SAYA MEMPELAJARI :
     <li> mengisi kode baru pada read_inc.php </li>
     <li> memodifikasi kode di index.php pertemuan ke-10 </li>
     <li> Terakhir menghapus kode di 133-141 karena sudah diambil alih oleh file read_inc.php </li>
+    <li> Export Database db_pwd2025 </li>
 </ol>
