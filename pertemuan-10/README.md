@@ -15,4 +15,5 @@ SAYA MEMPELAJARI :
     <li> Mengisi kode pada file read.php </li>
     <li> Saya mempelajari mengisi kode baru di database di bagian tabel_tamu bekerja secara otomatis </li>
     <li> mengcopy read.php dan merubah copyan nya menjadi read_inc.php </li>
+    <li> mengisi kode baru pada read_inc.php </li>
 </ol>
