@@ -11,4 +11,5 @@ SAYA MEMPELAJARI :
     <li> membuat file baru yang bernama Koneksi.php dan mengisi kode di dalam nya </li>
     <li> Mendownload phpmyadmin dan membuat database yang bernama db_pwd2025. </li>
     <li>Membuat TABLE tbl_tamu DI PHPMYADMIN </li>
+    <li> Membuat file baru yang bernama read.php </li>
 </ol>
