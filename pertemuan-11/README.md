@@ -14,7 +14,7 @@ SAYA MEMPELAJARI :
     <li> Tampilkan nilai lama dari form untuk antisipasi jika error </li>
     <li> Cek REQUEST_METHOD apakah menggunakan 'POST </li>
     <li> Ambil data $_POST, trim, htmlspecialchars </li>
-    <li>  </li>
+    <li> Validasi (tidak boleh kosong, email valid) </li>
     <li>  </li>
     <li>  </li>
     <li>  </li>
