@@ -22,6 +22,16 @@ $nama  = bersihkan($_POST['txtNama']  ?? '');
 $email = bersihkan($_POST['txtEmail'] ?? '');
 $pesan = bersihkan($_POST['txtPesan'] ?? '');
 
+$captcha = trim($_POST['captcha'] ?? '');
+
+if ($captcha !== '5') {
+    $_SESSION['flash_error'] = "Jawaban captcha salah!";
+    $_SESSION['old'] = $_POST;
+    header("Location: index.php#contact");
+    exit;
+}
+
+
 if ($nama === '') {
     $errors[] = 'Nama wajib diisi.';
 } elseif (strlen($nama) < 3) {
@@ -77,6 +87,18 @@ if (mysqli_stmt_execute($stmt)) {
         'email' => $email,
         'pesan' => $pesan,
     ];
+
+    if (strlen($nama) < 3) {
+    $_SESSION['flash_error'] = "Nama minimal 3 karakter";
+    header("Location: index.php");
+    exit;
+}
+
+if (strlen($pesan) < 10) {
+    $_SESSION['flash_error'] = "Pesan minimal 10 karakter";
+    header("Location: index.php");
+    exit;
+}
 
     $_SESSION['flash_error'] = 'Data gagal disimpan. Silakan coba lagi.';
     redirect_ke('index.php#Contact');
