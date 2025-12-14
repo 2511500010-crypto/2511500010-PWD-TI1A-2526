@@ -10,7 +10,7 @@ SAYA MEMPELAJARI :
     <li> Mengcopy pertemuan-10 ke Pertemuan-11  </li>
     <li> Menghapus Penggunaan Session untuk mengirim Nilai dari form dari proses.php </li>
     <li> Update fungsi.php untuk helper redirect sederhana </li>
-    <li>  </li>
+    <li> Tambah penangkap pesan sukses/gagal (flash message dari SESSION) </li>
     <li>  </li>
     <li>  </li>
     <li>  </li>
