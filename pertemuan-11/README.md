@@ -18,7 +18,7 @@ SAYA MEMPELAJARI :
     <li> 
 INSERT tbl_tamu dengan prepared statement mysqli dan simpan pesan sukses/gagal ke $_SESSION serta 
 redirect balik ke index.php#contact </li>
-    <li>  </li>
+    <li> Tambahkan kolom nomor urut (bukan ID) pada read.php di kolom pertama  </li>
     <li>  </li>
     <li>  </li>
 </ol>
