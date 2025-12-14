@@ -8,7 +8,7 @@ SAYA MEMPELAJARI :
 
 <ol> 
     <li> Mengcopy pertemuan-10 ke Pertemuan-11  </li>
-    <li>  </li>
+    <li> Menghapus Penggunaan Session untuk mengirim Nilai dari form dari proses.php </li>
     <li>  </li>
     <li>  </li>
     <li>  </li>
