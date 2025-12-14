@@ -13,7 +13,7 @@ SAYA MEMPELAJARI :
     <li> Tambah penangkap pesan sukses/gagal (flash message dari SESSION) </li>
     <li> Tampilkan nilai lama dari form untuk antisipasi jika error </li>
     <li> Cek REQUEST_METHOD apakah menggunakan 'POST </li>
-    <li>  </li>
+    <li> Ambil data $_POST, trim, htmlspecialchars </li>
     <li>  </li>
     <li>  </li>
     <li>  </li>
