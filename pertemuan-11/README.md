@@ -20,5 +20,6 @@ INSERT tbl_tamu dengan prepared statement mysqli dan simpan pesan sukses/gagal k
 redirect balik ke index.php#contact </li>
     <li> Tambahkan kolom nomor urut (bukan ID) pada read.php di kolom pertama  </li>
     <li> Tambah validasi panjang minimal untuk nama minimal 3 karakter dan pesan minimal 10 karakter </li>
-    <li> Tambah input “captcha sederhana” (pertanyaan 2+3=?) untuk logika dasar. </li>
+    <li> Tambah input “captcha sederhana” (pertanyaan 2+3=?) untuk logika dasar </li>
+    <li> Menambahkan Pesan untuk menampilkan tanggal dan waktu pesan dikirim <li>
 </ol>
