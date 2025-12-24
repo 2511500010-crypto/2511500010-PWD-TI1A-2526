@@ -12,4 +12,5 @@ SAYA MEMPELAJARI :
     <li> Menyalin kode di proses_update.php ke proses_delete.php </li>
     <li> Memperbarui kode di proses_delete.php agar kodenya bekerja </li>
     <li> Memperbarui parameterrr cid untuk link delete di read.php </li>
+    <li> memperbaiki file diproses_delete.php agar memakai parameter cid </li>
 </ol>
