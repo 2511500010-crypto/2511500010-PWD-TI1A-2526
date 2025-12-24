@@ -9,4 +9,5 @@ SAYA MEMPELAJARI :
 <ol> 
     <li>  mendownload bahan pertemuan yang ada di elearning dan lalu mengekstraknya </li>
     <li> Menambahkan Link Delete untuk file baru </li>
+    <li> Menyalin kode di proses_update.php ke proses_delete.php </li>
 </ol>
