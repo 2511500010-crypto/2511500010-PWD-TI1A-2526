@@ -8,4 +8,5 @@ SAYA MEMPELAJARI :
 
 <ol> 
     <li>  mendownload bahan pertemuan yang ada di elearning dan lalu mengekstraknya </li>
+    <li> Menambahkan Link Delete untuk file baru </li>
 </ol>
