@@ -13,4 +13,5 @@ SAYA MEMPELAJARI :
     <li> Memperbarui kode di proses_delete.php agar kodenya bekerja </li>
     <li> Memperbarui parameterrr cid untuk link delete di read.php </li>
     <li> memperbaiki file diproses_delete.php agar memakai parameter cid </li>
+    <li> Memodifikasi kode konfirmasi penghapusan untuk link delete </li>
 </ol>
