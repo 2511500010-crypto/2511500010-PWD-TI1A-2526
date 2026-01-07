@@ -132,6 +132,8 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
                         <th>Hobi</th>
                         <th>Pekerjaan</th>
                         <th>Nama Orang Tua</th>
+                        <th>Nama Kakak</th>
+                        <th>Nama Adik</th>
                         <th>Dibuat</th>
                     </tr>
                 </thead>
@@ -143,8 +145,8 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
                             <td class="aksi-btn">
                                 <a href="edit_mahasiswa.php?cmid=<?= (int)$row['cmid']; ?>" class="btn-edit">Edit</a>
                                 <a href="hapus_mahasiswa.php?cmid=<?= (int)$row['cmid']; ?>" 
-                                   class="btn-hapus" 
-                                   onclick="return confirm('Hapus data <?= htmlspecialchars($row['cnama']); ?> (NIM: <?= htmlspecialchars($row['cnim']); ?>)?')">
+                                    class="btn-hapus" 
+                                    onclick="return confirm('Hapus data <?= htmlspecialchars($row['cnama']); ?> (NIM: <?= htmlspecialchars($row['cnim']); ?>)?')">
                                     Hapus
                                 </a>
                             </td>
@@ -163,7 +165,7 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
         <?php else: ?>
             <div style="text-align: center; padding: 40px;">
                 <p style="font-size: 18px; color: #666;">Belum ada data mahasiswa.</p>
-                <a href="index.php#biodata" style="color: #003366; text-decoration: underline;">Klik di sini untuk menambah new data</a>
+                <a href="index.php#biodata" style="color: #003366; text-decoration: underline;">Klik di sini untuk menambah new mahasiswa</a>
             </div>
         <?php endif; ?>
         

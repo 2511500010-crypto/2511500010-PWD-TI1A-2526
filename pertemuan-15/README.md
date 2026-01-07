@@ -15,4 +15,5 @@ SAYA MEMPELAJARI :
     <li> Mengubah index.php di bagian from biodata </li>
     <li> Menambahkan isi kode pada file baca_mahasiswa.php </li >
     <li> Menambahkan file baru yang bernama edit_mahasiswa.php </li>
+    <li> Memperbaiki baca_mahasiswa.php </li>
 </ol>
