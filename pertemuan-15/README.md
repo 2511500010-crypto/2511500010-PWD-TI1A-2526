@@ -18,4 +18,5 @@ SAYA MEMPELAJARI :
     <li> Memperbaiki baca_mahasiswa.php </li>
     <li> Menambahkan isi kode pada edit_mahasiswa.php </li>
     <li> Menambahkan file baru yang bernama proses_update_mahasiswa.php <li>
+    <li> Memperbaiki baca_mahasiswa.php </li>
 </ol>

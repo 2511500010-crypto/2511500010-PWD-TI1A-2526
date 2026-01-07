@@ -157,6 +157,8 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
                             <td><?= htmlspecialchars($row['chobi']); ?></td>
                             <td><?= htmlspecialchars($row['cpekerjaan'] ?? '-'); ?></td>
                             <td><?= htmlspecialchars($row['cnama_ortu']); ?></td>
+                            <td><?= htmlspecialchars($row['cnama_kakak']); ?></td>
+                            <td><?= htmlspecialchars($row['cnama_adik']); ?></td>
                             <td><?= formatTanggal($row['dcreated_at']); ?></td>
                         </tr>
                     <?php endwhile; ?>
@@ -171,7 +173,7 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
         
         <div style="margin-top: 30px; text-align: center;">
             <a href="index.php" style="background-color: #003366; color: white; padding: 10px 20px; 
-               border-radius: 6px; text-decoration: none; display: inline-block;">
+                border-radius: 6px; text-decoration: none; display: inline-block;">
                 Kembali ke Beranda
             </a>
         </div>
