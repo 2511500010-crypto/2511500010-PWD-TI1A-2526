@@ -130,11 +130,12 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
                         <th>Tempat Lahir</th>
                         <th>Tanggal Lahir</th>
                         <th>Hobi</th>
+                        <th>Pasangan</th>
                         <th>Pekerjaan</th>
                         <th>Nama Orang Tua</th>
                         <th>Nama Kakak</th>
                         <th>Nama Adik</th>
-                        <th>Dibuat</th>
+                        <th>Tanggal</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -155,6 +156,7 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
                             <td><?= htmlspecialchars($row['ctempat_lahir']); ?></td>
                             <td><?= date('d-m-Y', strtotime($row['ctanggal_lahir'])); ?></td>
                             <td><?= htmlspecialchars($row['chobi']); ?></td>
+                            <td><?= htmlspecialchars($row['cpasangan']); ?></td>
                             <td><?= htmlspecialchars($row['cpekerjaan'] ?? '-'); ?></td>
                             <td><?= htmlspecialchars($row['cnama_ortu']); ?></td>
                             <td><?= htmlspecialchars($row['cnama_kakak']); ?></td>

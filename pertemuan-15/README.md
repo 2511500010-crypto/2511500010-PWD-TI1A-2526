@@ -24,4 +24,5 @@ SAYA MEMPELAJARI :
     <li> Memperbaiki file index.php </li>
     <li> Mengisi Kode pada Hapus_mahasiswa.php <li>
     <li> Terakhir mengexport tbl_mahasiswa ke dalam visual code studio </li>
+    <li> Memperbaiki baca_mahasiswa.php </li>
 </ol>
