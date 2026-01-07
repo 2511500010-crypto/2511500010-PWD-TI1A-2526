@@ -20,4 +20,5 @@ SAYA MEMPELAJARI :
     <li> Menambahkan file baru yang bernama proses_update_mahasiswa.php <li>
     <li> Memperbaiki baca_mahasiswa.php </li>
     <li> Mengisi Kode di bernama proses_update_mahasiswa.php </li>
+    <li> Membuat file baru yang bernama hapus_mahasiswa.php </li>
 </ol>
