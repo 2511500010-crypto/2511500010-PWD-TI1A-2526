@@ -13,4 +13,5 @@ SAYA MEMPELAJARI :
     <li> mengisi kode di proses_biodata.php agar bekerja </li>
     <li> Membuat file baru yang bernama baca_mahasiswa.php agar menampilkan hasilnya </li>
     <li> Mengubah index.php di bagian from biodata </li>
+    <li> Menambahkan isi kode pada file baca_mahasiswa.php </li >
 </ol>
