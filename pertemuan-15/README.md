@@ -10,4 +10,5 @@ SAYA MEMPELAJARI :
     <li> Mendownload zip pertemuan-15 di lms</li>
     <li> Membuat tabel baru yang bernama tabel_mahasiswa </li>
     <li> Membuat file baru yang bernama Proses_biodata.php </li>
+    <li> mengisi kode di proses_biodata.php agar bekerja </li>
 </ol>
