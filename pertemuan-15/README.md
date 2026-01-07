@@ -9,4 +9,5 @@ SAYA MEMPELAJARI :
 <ol> 
     <li> Mendownload zip pertemuan-15 di lms</li>
     <li> Membuat tabel baru yang bernama tabel_mahasiswa </li>
+    <li> Membuat file baru yang bernama Proses_biodata.php </li>
 </ol>
