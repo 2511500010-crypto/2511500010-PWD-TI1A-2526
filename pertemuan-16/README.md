@@ -8,4 +8,5 @@ SAYA MEMPELAJARI :
 
 <ol> 
     <li> mendowload materi uas lalu menaruhnya ke dalam vscode </li>
+    <li> Membuata table database baru yang bernama tbl_dosen di phpmyadmin </li>
 </ol>
