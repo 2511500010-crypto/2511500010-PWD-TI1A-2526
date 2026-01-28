@@ -12,4 +12,5 @@ SAYA MEMPELAJARI :
     <li> membuat file baru yang bernama proses_biodata.php </li>
     <li> mengupdate isi index.php di bagian section#biodata </li>
     <li> Membuat isi kode pada proses_biodata.php agar bisa bekerja sesuai form action pada index.php </li>
+    <li> Membuat File baru Yang bernama biodata_read.php </li>
 </ol>
