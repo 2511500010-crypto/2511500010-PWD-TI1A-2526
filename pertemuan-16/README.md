@@ -17,4 +17,5 @@ SAYA MEMPELAJARI :
     <li> Membuat file edit yang bernama biodata_edit.php </li>
     <li> Mengisi kode tersebut agar bisa mengedit data yang telah masuk jika ada kesalahan lalu menambahkan style juga </li>
     <li> membuat file baru yang bernama proses_biodata_update.php </li>
+    <li> Memperbaiki kode edit yang error </li>
 </ol>

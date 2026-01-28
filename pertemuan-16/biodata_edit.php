@@ -121,19 +121,15 @@ if (!empty($old)) {
             </label>
 
             <label for="txtTglLahir"><span>Tanggal Lahir:</span>
-                <input type="date" id="txtTglLahir" name="txtTglLahir" 
+                <input type="text" id="txtTglLahir" name="txtTglLahir" 
                     value="<?= htmlspecialchars($tgl_lahir); ?>" required>
             </label>
 
-            <label for="txtJabatan"><span>Jabatan:</span>
-                <select id="txtJabatan" name="txtJabatan" required>
-                    <option value="">Pilih Jabatan</option>
-                    <option value="Asisten Ahli" <?= $jabatan == 'Asisten Ahli' ? 'selected' : '' ?>>Asisten Ahli</option>
-                    <option value="Lektor" <?= $jabatan == 'Lektor' ? 'selected' : '' ?>>Lektor</option>
-                    <option value="Lektor Kepala" <?= $jabatan == 'Lektor Kepala' ? 'selected' : '' ?>>Lektor Kepala</option>
-                    <option value="Guru Besar" <?= $jabatan == 'Guru Besar' ? 'selected' : '' ?>>Guru Besar</option>
-                </select>
-            </label>
+    <label for="txtJabatan"><span>Jabatan:</span>
+        <input type="text" id="txtJabatan" name="txtJabatan" 
+        placeholder="Masukkan Jabatan" required
+        value="<?= isset($old_biodata['jabatan']) ? htmlspecialchars($old_biodata['jabatan']) : '' ?>">
+    </label>
 
             <label for="txtProdi"><span>Homebase Prodi:</span>
                 <input type="text" id="txtProdi" name="txtProdi" 
