@@ -10,4 +10,5 @@ SAYA MEMPELAJARI :
     <li> mendowload materi uas lalu menaruhnya ke dalam vscode </li>
     <li> Membuata table database baru yang bernama tbl_dosen di phpmyadmin </li>
     <li> membuat file baru yang bernama proses_biodata.php </li>
+    <li> mengupdate isi index.php di bagian section#biodata </li>
 </ol>
