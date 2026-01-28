@@ -22,7 +22,7 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error']);
     <link rel="stylesheet" href="style.css">
     <style>
         .container {
-            max-width: 1200px;
+            max-width: 1400px; /* Diperbesar untuk menampung lebih banyak kolom */
             margin: 0 auto;
             padding: 20px;
         }
@@ -45,15 +45,19 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error']);
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
+            font-size: 14px; /* Ukuran font lebih kecil */
         }
         th, td {
-            padding: 12px;
+            padding: 10px;
             text-align: left;
             border-bottom: 1px solid #ddd;
+            vertical-align: top; /* Untuk konten multi-line */
         }
         th {
             background-color: #003366;
             color: white;
+            position: sticky;
+            top: 0;
         }
         tr:hover {
             background-color: #f5f5f5;
@@ -64,6 +68,7 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error']);
             margin-right: 5px;
             text-decoration: none;
             border-radius: 3px;
+            font-size: 12px;
         }
         .edit-btn {
             background: #28a745;
@@ -78,6 +83,32 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error']);
         }
         .delete-btn:hover {
             background: #c82333;
+        }
+        /* Kolom dengan konten panjang */
+        .alamat-cell, .anak-cell {
+            max-width: 200px;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+        .alert {
+            padding: 12px 16px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+        }
+        .alert.success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .alert.error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        /* Scroll horizontal untuk table */
+        .table-container {
+            overflow-x: auto;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -102,42 +133,52 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error']);
             <a href="index.php">Kembali ke Beranda</a>
         </div>
         
-        <table>
-            <thead>
-                <tr>
-                    <th>No</th>
-                    <th>Aksi</th>
-                    <th>NIM</th>
-                    <th>Nama Dosen</th>
-                    <th>Jabatan</th>
-                    <th>Prodi</th>
-                    <th>No HP</th>
-                    <th>Bidang Ilmu</th>
-                    <th>Tanggal Input</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php $i = 1; ?>
-                <?php while ($row = mysqli_fetch_assoc($q)): ?>
-                <tr>
-                    <td><?= $i++; ?></td>
-                    <td class="actions">
-                        <a href="biodata_edit.php?id=<?= $row['id']; ?>" class="edit-btn">Edit</a>
-                        <a href="biodata_delete.php?id=<?= $row['id']; ?>" 
-                            class="delete-btn" 
-                            onclick="return confirm('Hapus data <?= htmlspecialchars($row['nama']); ?>?')">Delete</a>
-                    </td>
-                    <td><?= htmlspecialchars($row['nim']); ?></td>
-                    <td><?= htmlspecialchars($row['nama']); ?></td>
-                    <td><?= htmlspecialchars($row['jabatan']); ?></td>
-                    <td><?= htmlspecialchars($row['prodi']); ?></td>
-                    <td><?= htmlspecialchars($row['no_hp']); ?></td>
-                    <td><?= htmlspecialchars($row['bidang_ilmu']); ?></td>
-                    <td><?= formatTanggal($row['created_at']); ?></td>
-                </tr>
-                <?php endwhile; ?>
-            </tbody>
-        </table>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Aksi</th>
+                        <th>NIM</th>
+                        <th>Nama Dosen</th>
+                        <th>Alamat Rumah</th>
+                        <th>Tanggal Lahir</th>
+                        <th>Jabatan</th>
+                        <th>Prodi</th>
+                        <th>No HP</th>
+                        <th>Pasangan</th>
+                        <th>Anak</th>
+                        <th>Bidang Ilmu</th>
+                        <th>Tanggal Input</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php $i = 1; ?>
+                    <?php while ($row = mysqli_fetch_assoc($q)): ?>
+                    <tr>
+                        <td><?= $i++; ?></td>
+                        <td class="actions">
+                            <a href="biodata_edit.php?id=<?= $row['id']; ?>" class="edit-btn">Edit</a>
+                            <a href="biodata_delete.php?id=<?= $row['id']; ?>" 
+                                class="delete-btn" 
+                                onclick="return confirm('Hapus data <?= htmlspecialchars($row['nama']); ?>?')">Delete</a>
+                        </td>
+                        <td><?= htmlspecialchars($row['nim']); ?></td>
+                        <td><?= htmlspecialchars($row['nama']); ?></td>
+                        <td class="alamat-cell"><?= nl2br(htmlspecialchars($row['alamat'])); ?></td>
+                        <td><?= !empty($row['tanggal_lahir']) ? date('d/m/Y', strtotime($row['tanggal_lahir'])) : '-'; ?></td>
+                        <td><?= htmlspecialchars($row['jabatan']); ?></td>
+                        <td><?= htmlspecialchars($row['prodi']); ?></td>
+                        <td><?= htmlspecialchars($row['no_hp']); ?></td>
+                        <td><?= !empty($row['pasangan']) ? htmlspecialchars($row['pasangan']) : '-'; ?></td>
+                        <td class="anak-cell"><?= !empty($row['anak']) ? nl2br(htmlspecialchars($row['anak'])) : '-'; ?></td>
+                        <td><?= htmlspecialchars($row['bidang_ilmu']); ?></td>
+                        <td><?= formatTanggal($row['created_at']); ?></td>
+                    </tr>
+                    <?php endwhile; ?>
+                </tbody>
+            </table>
+        </div>
         
         <?php if (mysqli_num_rows($q) == 0): ?>
             <p style="text-align: center; padding: 20px; color: #666;">
