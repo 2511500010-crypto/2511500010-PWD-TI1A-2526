@@ -11,4 +11,5 @@ SAYA MEMPELAJARI :
     <li> Membuata table database baru yang bernama tbl_dosen di phpmyadmin </li>
     <li> membuat file baru yang bernama proses_biodata.php </li>
     <li> mengupdate isi index.php di bagian section#biodata </li>
+    <li> Membuat isi kode pada proses_biodata.php agar bisa bekerja sesuai form action pada index.php </li>
 </ol>
