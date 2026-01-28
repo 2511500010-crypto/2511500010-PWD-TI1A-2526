@@ -24,4 +24,5 @@ SAYA MEMPELAJARI :
     <li> Perbaikan pada biodata_read.php alamat sam tanggal lahir tidak muncul </li>
     <li> Memperbaiki ulang kode pada biodat_edit.php</li>
     <li> Perbaikan css pada biodata_edit.php </li>
+    <li> mengumpulkan file export ke dalam vscode </li>
 </ol>
