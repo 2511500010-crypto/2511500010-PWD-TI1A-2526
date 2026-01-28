@@ -22,4 +22,5 @@ SAYA MEMPELAJARI :
     <li> Membuat file baru yang bernama biodata_delete.php </li>
     <li> mengisi kode pada file biodata_delete.php agar bisa terhapus lalu ada notifikasi data berhasil di hapus di atas tambah data baru </li>
     <li> Perbaikan pada biodata_read.php alamat sam tanggal lahir tidak muncul </li>
+    <li> Memperbaiki ulang kode pada biodat_edit.php</li>
 </ol>
