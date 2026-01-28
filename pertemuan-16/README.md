@@ -14,5 +14,5 @@ SAYA MEMPELAJARI :
     <li> Membuat isi kode pada proses_biodata.php agar bisa bekerja sesuai form action pada index.php </li>
     <li> Membuat File baru Yang bernama biodata_read.php </li>
     <li> Mengisi kode pada file biodata_read.php berserta style agar terlihat bagus </li>
-    <li> Membuat file edit yang bernama biodata_edit.php </i>
+    <li> Membuat file edit yang bernama biodata_edit.php </li>
 </ol>
