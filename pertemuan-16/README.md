@@ -16,4 +16,5 @@ SAYA MEMPELAJARI :
     <li> Mengisi kode pada file biodata_read.php berserta style agar terlihat bagus </li>
     <li> Membuat file edit yang bernama biodata_edit.php </li>
     <li> Mengisi kode tersebut agar bisa mengedit data yang telah masuk jika ada kesalahan lalu menambahkan style juga </li>
+    <li> membuat file baru yang bernama proses_biodata_update.php </li>
 </ol>
