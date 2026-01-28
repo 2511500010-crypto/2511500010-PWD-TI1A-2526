@@ -20,4 +20,5 @@ SAYA MEMPELAJARI :
     <li> Memperbaiki kode edit yang error </li>
     <li> mengisi kode yang ada di file proses_biodata_update.php agar bisa mengupdate data yang telah di input </li>
     <li> Membuat file baru yang bernama biodata_delete.php </li>
+    <li> mengisi kode pada file biodata_delete.php agar bisa terhapus lalu ada notifikasi data berhasil di hapus di atas tambah data baru </li>
 </ol>
