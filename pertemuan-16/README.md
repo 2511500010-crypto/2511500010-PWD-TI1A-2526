@@ -18,4 +18,5 @@ SAYA MEMPELAJARI :
     <li> Mengisi kode tersebut agar bisa mengedit data yang telah masuk jika ada kesalahan lalu menambahkan style juga </li>
     <li> membuat file baru yang bernama proses_biodata_update.php </li>
     <li> Memperbaiki kode edit yang error </li>
+    <li> mengisi kode yang ada di file proses_biodata_update.php agar bisa mengupdate data yang telah di input </li>
 </ol>
